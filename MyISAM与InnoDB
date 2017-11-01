@@ -4,6 +4,6 @@
   3.select count(0)
     InnoDB扫描全表
     MyISAM内存中记录行数，只需要读取即可(当存在where条件时，也需要扫描全表)
-  4.InnoDB 支持行锁
+  4.InnoDB 支持行锁/表锁，MyISAM 只支持表锁
   
   相对业务性较高，对于数据安全偏重，不偏重数据库性能时，选择InnoDB是最好的选择(mysql5.5.5默认InnoDB）
