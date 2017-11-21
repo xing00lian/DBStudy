@@ -18,3 +18,6 @@
   非叶子节点都有左右子树，叶子节点都在同一层
 平衡二叉树（Balanced Binary Tree）
   AVL树，空树或节点左右子树高度差不超过1，且左右子树都是平衡二叉树
+
+# b tree 演化过程
+http://www.cnblogs.com/yangecnu/p/Introduce-B-Tree-and-B-Plus-Tree.html
